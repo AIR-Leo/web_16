@@ -1,8 +1,6 @@
 /** @odoo-module **/
-/* Copyright 2022 Tecnativa - Carlos Roca
- * License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html) */
 
-const {Component, QWeb} = owl;
+import { Component } from "@odoo/owl";
 const {useState} = owl;
 
 /**
@@ -48,4 +46,4 @@ DropdownItemCustomMeasure.props = {
     // uses Measures like the graph view.
     model: Object,
 };
-QWeb.registerComponent("DropdownItemCustomMeasure", DropdownItemCustomMeasure);
+// QWeb.registerComponent("DropdownItemCustomMeasure", DropdownItemCustomMeasure);

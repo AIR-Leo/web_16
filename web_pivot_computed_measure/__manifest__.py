@@ -12,9 +12,11 @@
     "installable": True,
     "assets": {
         "web.assets_qweb": [
-            "/web_pivot_computed_measure/static/src/**/*.xml",
+            
         ],
         "web.assets_backend": [
+            "/web_pivot_computed_measure/static/src/**/*.xml",
+            "/web_pivot_computed_measure/static/src/**/*.js",
             "/web_pivot_computed_measure/static/src/**/*.esm.js",
             "/web_pivot_computed_measure/static/src/**/*.scss",
             ("remove", "/web_pivot_computed_measure/static/src/test/*.esm.js"),
